@@ -16,3 +16,8 @@ git merge branch1 --no-ff
 
 - git merge 一定要在 master 分支上进行
 - git merge 分支时, 最好加上 --no-ff 参数防止快速合并
+
+## 删除分支
+
+git branch -d branch1 删除本地分支 branch1
+git push origin --delete branch1 删除远程分支 branch1
