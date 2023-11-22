@@ -1,1 +1,2 @@
 main init
+main 1
